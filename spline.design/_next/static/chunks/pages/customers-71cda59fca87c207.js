@@ -285,6 +285,7 @@
             children: [
               (0, w.jsxs)("div", {
                 className: S().video,
+                style: { position: "relative" },
                 children: [
                   (0, w.jsx)("video", {
                     ref: c,
@@ -305,6 +306,168 @@
                     onPause: function (e) {
                       e.stopPropagation();
                     },
+                  }),
+                  (0, w.jsx)("button", {
+                    className: "mute-button",
+                    onClick: "toggleMute(this)",
+                    children: [
+                      (0, w.jsx)("svg", {
+                        width: "24",
+                        height: "24",
+                        fill: "none",
+                        className: "mute-icon",
+                        style: { display: "none" },
+                        children: [
+                          (0, w.jsx)("path", {
+                            d: "M11 5 6 9H2v6h4l5 4V5Z",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                          }),
+                          (0, w.jsx)("line", {
+                            x1: "23",
+                            y1: "9",
+                            x2: "17",
+                            y2: "15",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                          }),
+                          (0, w.jsx)("line", {
+                            x1: "17",
+                            y1: "9",
+                            x2: "23",
+                            y2: "15",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                          }),
+                        ],
+                      }),
+                      (0, w.jsx)("svg", {
+                        width: "24",
+                        height: "24",
+                        fill: "none",
+                        className: "unmute-icon",
+                        children: [
+                          (0, w.jsx)("path", {
+                            d: "M11 5 6 9H2v6h4l5 4V5Z",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                          }),
+                          (0, w.jsx)("path", {
+                            d: "M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                  (0, w.jsx)("button", {
+                    onClick: function (e) {
+                      e.stopPropagation();
+                      const video = e.target
+                        .closest("div")
+                        .querySelector("video");
+                      const muteIcon = e.target
+                        .closest("button")
+                        .querySelector(".mute-icon");
+                      const unmuteIcon = e.target
+                        .closest("button")
+                        .querySelector(".unmute-icon");
+                      if (video.muted) {
+                        video.muted = false;
+                        muteIcon.style.display = "none";
+                        unmuteIcon.style.display = "block";
+                      } else {
+                        video.muted = true;
+                        muteIcon.style.display = "block";
+                        unmuteIcon.style.display = "none";
+                      }
+                    },
+                    style: {
+                      position: "absolute",
+                      top: "16px",
+                      right: "16px",
+                      background: "rgba(0,0,0,0.7)",
+                      border: "none",
+                      borderRadius: "50%",
+                      width: "48px",
+                      height: "48px",
+                      cursor: "pointer",
+                      color: "white",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      zIndex: 10,
+                    },
+                    children: [
+                      (0, w.jsx)("svg", {
+                        width: "24",
+                        height: "24",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        className: "mute-icon",
+                        children: [
+                          (0, w.jsx)("path", {
+                            d: "M11 5 6 9H2v6h4l5 4V5Z",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                          }),
+                          (0, w.jsx)("path", {
+                            d: "M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                            className: "sound-waves",
+                          }),
+                        ],
+                      }),
+                      (0, w.jsx)("svg", {
+                        width: "24",
+                        height: "24",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        className: "unmute-icon",
+                        style: { display: "none" },
+                        children: [
+                          (0, w.jsx)("path", {
+                            d: "M11 5 6 9H2v6h4l5 4V5Z",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                            strokeLinejoin: "round",
+                          }),
+                          (0, w.jsx)("line", {
+                            x1: "23",
+                            y1: "9",
+                            x2: "17",
+                            y2: "15",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                          }),
+                          (0, w.jsx)("line", {
+                            x1: "17",
+                            y1: "9",
+                            x2: "23",
+                            y2: "15",
+                            stroke: "currentColor",
+                            strokeWidth: "2",
+                            strokeLinecap: "round",
+                          }),
+                        ],
+                      }),
+                    ],
                   }),
                   (0, w.jsx)(j(), { ref: d, src: i, alt: "poster" }),
                 ],
