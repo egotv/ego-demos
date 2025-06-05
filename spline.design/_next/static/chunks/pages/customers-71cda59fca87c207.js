@@ -776,8 +776,7 @@
         },
         G = [
           {
-            video:
-              "https://cdn.spline.design/_assets/_videos/customers/Scale2.mp4",
+            video: "_assets/_videos/Chatterblox_Trailer.mp4",
             poster: {
               src: "/_next/static/media/Scale.7fe203c7.png",
               height: 800,
@@ -799,8 +798,7 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video:
-              "https://cdn.spline.design/_assets/_videos/customers/Alloy.mp4",
+            video: "_assets/_videos/Thrall_Teaser.mp4",
             poster: {
               src: "/_next/static/media/Alloy.78b750be.png",
               height: 800,
@@ -820,8 +818,7 @@
             features: [F.animations, F.materials, F.states, F.videoExport],
           },
           {
-            video:
-              "https://cdn.spline.design/_assets/_videos/customers/Forbes.mp4",
+            video: "_assets/_videos/Wukong_Demo.mp4",
             poster: {
               src: "/_next/static/media/Forbes.00700df3.png",
               height: 800,
@@ -841,8 +838,7 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video:
-              "https://cdn.spline.design/_assets/_videos/customers/Polaroid.mp4",
+            video: "_assets/_videos/QA_Agent_Tech_Demo.mp4",
             poster: {
               src: "/_next/static/media/Polaroid.0366ddc7.png",
               height: 800,
@@ -862,14 +858,13 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video:
-              "https://cdn.spline.design/_assets/_videos/customers/Luma.mp4",
+            video: "_assets/_videos/Jazz_Cafe_Demo.mp4",
             poster: {
               src: "/_next/static/media/Luma.e8b5f1f1.png",
               height: 800,
               width: 1920,
               blurDataURL:
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAKlBMVEX+/Pv69vLc5+vo1tjs6enm4uOjt8+0x9fx9PnK0uDay9Lv6OKs1ePm7O6M/sOYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIklEQVR4nAXBhwEAMAjDMIfVyf/vIrHj6ZQJ0m3VByLltxkGMAByCQ5GeAAAAABJRU5ErkJggg==",
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAKlBMVEX+/Pv69vLc5+vo1tjs6enm4uOjt8+0x9fx9PnK0uDay9Lv6OKs1ePm7O6M/sOYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIklEQVR4nAXBhwEAMAjDMIfd8f+9SCAyQ4Ew98ND1fbvsAPnAGAANcC8AAAAAElFTkSuQmCC",
               blurWidth: 8,
               blurHeight: 3,
             },
@@ -888,8 +883,7 @@
             ],
           },
           {
-            video:
-              "https://cdn.spline.design/_assets/_videos/customers/Wild.mp4",
+            video: "_assets/_videos/Accomplice_AI_Teaser.mp4",
             poster: {
               src: "/_next/static/media/Wild.db8fcd53.png",
               height: 800,
