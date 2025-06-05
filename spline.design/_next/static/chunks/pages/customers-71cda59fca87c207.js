@@ -776,6 +776,67 @@
         },
         G = [
           {
+            video: "_assets/_videos/Aristotle_Product_Demo.mp4",
+            poster: {
+              src: "_assets/_videos/Aristotle_poster.png",
+              height: 800,
+              width: 1920,
+              blurDataURL:
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAABlBMVEVhYHD///+iXSWPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAD0lEQVR4nGNggAJGBgYAAABIAADI3XHRAAAAAElFTkSuQmCC",
+              blurWidth: 8,
+              blurHeight: 3,
+            },
+            title: "Aristotle",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
+              children: [
+                "A natural language interface for launching AI agents, each focused on specific, goal-driven tasks.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "自然言語で指示を出し、目的に応じたAIエージェントを自在に動かせるプラットフォーム。",
+                }),
+              ],
+            }),
+            website: "",
+            features: [F.animations, F.materials, F.states, F.embed],
+          },
+          {
+            video: "_assets/_videos/Jazz_Cafe_Demo.mp4",
+            poster: {
+              src: "/_next/static/media/Luma.e8b5f1f1.png",
+              height: 800,
+              width: 1920,
+              blurDataURL:
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAKlBMVEX+/Pv69vLc5+vo1tjs6enm4uOjt8+0x9fx9PnK0uDay9Lv6OKs1ePm7O6M/sOYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIklEQVR4nAXBhwEAMAjDMIfVyf/vIrHj6ZQJ0m3VByLltxkGMAByCQ5GeAAAAABJRU5ErkJggg==",
+              blurWidth: 8,
+              blurHeight: 3,
+            },
+            title: "Jazz Cafe Demo",
+            subtitle: "",
+            website: "",
+            description: (0, w.jsxs)("p", {
+              children: [
+                "Three AI characters with distinct personalities interact and converse in a dynamic cafe setting.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "性格の異なる3人のAIキャラクターが、ジャズカフェで自由に会話し、ふるまうデモ。",
+                }),
+              ],
+            }),
+            features: [
+              F.animations,
+              F.materials,
+              F.videoTexture,
+              F.videoExport,
+            ],
+          },
+          {
             video: "_assets/_videos/Chatterblox_Trailer.mp4",
             poster: {
               src: "/_next/static/media/Scale.7fe203c7.png",
@@ -790,11 +851,44 @@
             subtitle: "",
             description: (0, w.jsxs)("p", {
               children: [
-                "A Roblox experience where you chat with embodied AI friends and deepen relationships over time. ",
-                "ロブロックスの世界で、個性豊かなAIフレンドと会話しながら絆を深めていく体験。",
+                "A Roblox experience where you chat with embodied AI friends and deepen relationships over time.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "ロブロックスの世界で、個性豊かなAIフレンドと会話しながら絆を深めていく体験。",
+                }),
               ],
             }),
             website: "",
+            features: [F.animations, F.materials, F.states, F.embed],
+          },
+          {
+            video: "_assets/_videos/Accomplice_AI_Teaser.mp4",
+            poster: {
+              src: "/_next/static/media/Wild.db8fcd53.png",
+              height: 800,
+              width: 1920,
+              blurDataURL:
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAJ1BMVEX374b+9onbw6fHpZ/27pPp1KPi24THu6T16XzNynerqHPm4JfXt6jsKhS3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nAXBhwEAMAjDMIfd8f+9SCAyQ4Ew98ND1fbvsAPnAGAANcC8AAAAAElFTkSuQmCC",
+              blurWidth: 8,
+              blurHeight: 3,
+            },
+            title: "Accomplice",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
+              children: [
+                "An AI-native social deduction game where detectives interrogate suspects who lie and mislead.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "AIが嘘やごまかしを使って立ち回る、尋問型のソーシャル推理ゲーム。",
+                }),
+              ],
+            }),
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
@@ -811,8 +905,16 @@
             title: "Thrall",
             subtitle: "",
             description: (0, w.jsxs)("p", {
-              children:
-                "A Valheim mod that spawns an AI companion who talks and completes tasks on command. 話しかけたり、指示に応じて行動してくれるAIの相棒を呼び出せるValheim用のMOD。",
+              children: [
+                "A Valheim mod that spawns an AI companion who talks and completes tasks on command.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "話しかけたり、指示に応じて行動してくれるAIの相棒を呼び出せるValheim用のMOD。",
+                }),
+              ],
             }),
             website: "",
             features: [F.animations, F.materials, F.states, F.videoExport],
@@ -831,8 +933,16 @@
             title: "Wukong",
             subtitle: "",
             description: (0, w.jsxs)("p", {
-              children:
-                "A mod for Wukong that adds a talking AI companion who assists in combat. 戦闘をサポートしてくれる、おしゃべりなAI仲間を追加するWukongのMOD。",
+              children: [
+                "A mod for Wukong that adds a talking AI companion who assists in combat.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "戦闘をサポートしてくれる、おしゃべりなAI仲間を追加するWukongのMOD。",
+                }),
+              ],
             }),
             website: "",
             features: [F.animations, F.materials, F.states, F.embed],
@@ -851,76 +961,18 @@
             title: "QA Agent Tech Demo",
             subtitle: "",
             description: (0, w.jsxs)("p", {
-              children:
-                "A QA agent explores Elden Ring by navigating and testing the game's collision boundaries. Elden Ringのマップを探索しながら、当たり判定を検証するQAエージェントの技術デモ。",
-            }),
-            website: "",
-            features: [F.animations, F.materials, F.states, F.embed],
-          },
-          {
-            video: "_assets/_videos/Jazz_Cafe_Demo.mp4",
-            poster: {
-              src: "/_next/static/media/Luma.e8b5f1f1.png",
-              height: 800,
-              width: 1920,
-              blurDataURL:
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAKlBMVEX+/Pv69vLc5+vo1tjs6enm4uOjt8+0x9fx9PnK0uDay9Lv6OKs1ePm7O6M/sOYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIklEQVR4nAXBhwEAMAjDMIfd8f+9SCAyQ4Ew98ND1fbvsAPnAGAANcC8AAAAAElFTkSuQmCC",
-              blurWidth: 8,
-              blurHeight: 3,
-            },
-            title: "Jazz Cafe Demo",
-            subtitle: "",
-            website: "",
-            description: (0, w.jsxs)("p", {
-              children:
-                "Three AI characters with distinct personalities interact and converse in a dynamic cafe setting. 性格の異なる3人のAIキャラクターが、ジャズカフェで自由に会話し、ふるまうデモ。",
-            }),
-            features: [
-              F.animations,
-              F.materials,
-              F.videoTexture,
-              F.videoExport,
-            ],
-          },
-          {
-            video: "_assets/_videos/Accomplice_AI_Teaser.mp4",
-            poster: {
-              src: "/_next/static/media/Wild.db8fcd53.png",
-              height: 800,
-              width: 1920,
-              blurDataURL:
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAJ1BMVEX374b+9onbw6fHpZ/27pPp1KPi24THu6T16XzNynerqHPm4JfXt6jsKhS3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nAXBhwEAMAjDMIfd8f+9SCAyQ4Ew98ND1fbvsAPnAGAANcC8AAAAAElFTkSuQmCC",
-              blurWidth: 8,
-              blurHeight: 3,
-            },
-            title: "Accomplice",
-            subtitle: "",
-            description: (0, w.jsxs)("p", {
-              children:
-                "An AI-native social deduction game where detectives interrogate suspects who lie and mislead. AIが嘘やごまかしを使って立ち回る、尋問型のソーシャル推理ゲーム。",
-            }),
-            features: [F.animations, F.materials, F.states, F.embed],
-          },
-          {
-            video: "_assets/_videos/Aristotle_Product_Demo.mp4",
-            poster: {
-              src: "_assets/_videos/Aristotle_poster.png", // Placeholder poster
-              height: 800,
-              width: 1920,
-              blurDataURL:
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAABlBMVEVhYHD///+iXSWPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAD0lEQVR4nGNggAJGBgYAAABIAADI3XHRAAAAAElFTkSuQmCC", // Generic blur
-              blurWidth: 8,
-              blurHeight: 3,
-            },
-            title: "Aristotle",
-            subtitle: "",
-            description: (0, w.jsxs)("p", {
               children: [
-                "A natural language interface for launching AI agents, each focused on specific, goal-driven tasks. ",
-                "自然言語で指示を出し、目的に応じたAIエージェントを自在に動かせるプラットフォーム。",
+                "A QA agent explores Elden Ring by navigating and testing the game's collision boundaries.",
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("br", {}),
+                (0, w.jsx)("span", {
+                  style: { fontStyle: "italic", opacity: 0.8 },
+                  children:
+                    "Elden Ringのマップを探索しながら、当たり判定を検証するQAエージェントの技術デモ。",
+                }),
               ],
             }),
-            website: "", // No website specified
+            website: "",
             features: [F.animations, F.materials, F.states, F.embed],
           },
         ];
@@ -1108,18 +1160,17 @@
               style: (0, _._)({}, e),
               children: [
                 (0, w.jsx)(y._, {
-                  title: "#MadeInSpline by our customers",
+                  title: "Ego AI Demo Videos",
                   description:
                     "See how brands, agencies, and independent designers around the world use Spline to create beautiful interactive 3D designs across the web.",
                   className: B()(C().sectionHero, C().sectionHead),
+                  descriptionStyle: { marginTop: "2rem" },
                 }),
                 (0, w.jsx)(Carousel, {}),
                 (0, w.jsx)(Y.j, {
                   theme: "default",
                   className: B()(C().section, C().sectionHead),
-                  children: (0, w.jsxs)(w.Fragment, {
-                    children: [(0, w.jsx)(z.j, {}), (0, w.jsx)(X.Y, {})],
-                  }),
+                  children: (0, w.jsx)(z.j, {}),
                 }),
                 (0, w.jsx)("section", {
                   children: (0, w.jsx)(Z.EnterpriseFormAndFeatures, {
