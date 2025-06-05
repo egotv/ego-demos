@@ -1330,7 +1330,7 @@
               style: (0, _._)({}, e),
               children: [
                 (0, w.jsx)(y._, {
-                  title: "Ego AI Demo Videos",
+                  title: "Human-like AI Behavior Across Video Games",
                   description:
                     "See how brands, agencies, and independent designers around the world use Spline to create beautiful interactive 3D designs across the web.",
                   className: B()(C().sectionHero, C().sectionHead),
