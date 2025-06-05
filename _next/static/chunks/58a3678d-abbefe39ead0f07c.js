@@ -36926,7 +36926,7 @@ void main() {
         }),
         ((f5 = mG || (mG = {})).defaultVideo = {
           data: "",
-          thumb: "/assets/videos/catThumb.png",
+          thumb: "https://egotv.github.io/ego-demos/assets/videos/catThumb.png",
           type: "video",
           name: "Cat video",
         }),

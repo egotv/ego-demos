@@ -1972,7 +1972,7 @@
                 playsInline: !0,
                 loop: !0,
                 muted: !0,
-                src: "/assets/videos/content_modes-compressed.mp4",
+                src: "https://egotv.github.io/ego-demos/assets/videos/content_modes-compressed.mp4",
                 poster: eP.Z.src,
                 width: "1080",
                 height: "634",
