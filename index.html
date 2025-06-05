@@ -8,17 +8,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>
-      Spline - 3D Design tool in the browser with real-time collaboration
-    </title>
+    <title>Ego AI - Bringing sentience to video games</title>
     <meta
       name="description"
-      content="Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation, textures, and more."
+      content="Ego AI is working on imbuing cognition, sentience, and intention into 3d characters in video games worlds."
     />
-    <meta
-      name="keywords"
-      content="Free interactive 3D design tool to create beautiful vectors and graphics in real-time"
-    />
+    <meta name="keywords" content="AI, Artificial Intelligence" />
+    <meta name="author" content="Ego AI" />
     <link rel="canonical" href="customers.html" />
     <link
       rel="icon"
@@ -60,30 +56,24 @@
     <meta property="og:url" content="customers.html" />
     <meta
       property="og:title"
-      content="Spline - 3D Design tool in the browser with real-time collaboration"
+      content="Ego AI - Bringing sentience to video games"
     />
     <meta
       property="og:description"
-      content="Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation, textures, and more."
+      content="Ego AI is working on imbuing cognition, sentience, and intention into 3d characters in video games worlds."
     />
-    <meta
-      property="og:image"
-      content="_next/static/media/spline_image_banner.de9090c7.png"
-    />
+    <meta property="og:image" content="images/ego-logo-blink.gif" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="customers.html" />
     <meta
       name="twitter:title"
-      content="Spline - 3D Design tool in the browser with real-time collaboration"
+      content="Ego AI - Bringing sentience to video games"
     />
     <meta
       name="twitter:description"
-      content="Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation, textures, and more."
+      content="Ego AI is working on imbuing cognition, sentience, and intention into 3d characters in video games worlds."
     />
-    <meta
-      name="twitter:image"
-      content="_next/static/media/spline_image_banner.de9090c7.png"
-    />
+    <meta name="twitter:image" content="images/ego-logo-blink.gif" />
     <meta
       name="google-site-verification"
       content="P4Rz8JgJLJWvGvWQaRjyDMFg0UwnCSgqj3nGyz98R_M"
@@ -233,6 +223,16 @@
       .mute-button:hover {
         background: rgba(0, 0, 0, 0.9) !important;
         transform: scale(1.1) !important;
+      }
+
+      /* Fix arrow direction: rotate previous arrows to point left */
+      .Carousel_previous__1miNZ .Carousel_navButton__QYfjf svg {
+        transform: rotate(180deg);
+      }
+      .Carousel_mobileButton__cO8XX.Carousel_previous__1miNZ
+        .Carousel_button__AomYQ
+        svg {
+        transform: rotate(180deg);
       }
     </style>
     <script
@@ -1734,26 +1734,27 @@
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <rect
-                                x="2.25"
-                                y="5.25"
-                                width="12"
-                                height="13.5"
-                                rx="2.25"
-                                stroke="#fff"
-                                stroke-width="1.5"
-                              ></rect>
                               <path
-                                d="m14.25 9.75 7.5-3v10.5l-7.5-3"
+                                d="M6 16.5 1.5 12 6 7.5M18 16.5l4.5-4.5L18 7.5"
                                 stroke="#fff"
                                 stroke-width="1.5"
+                                stroke-linecap="round"
                                 stroke-linejoin="round"
+                              ></path>
+                              <path
+                                d="m13.5 5.25-3 13.5"
+                                stroke="#fff"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
                               ></path>
                             </svg>
                           </div>
                           <div>
-                            <h6>Video Export</h6>
-                            <p>Export 3D scenes as video or image sequence.</p>
+                            <h6>Live Embed</h6>
+                            <p>
+                              Integrate your project into your existing
+                              workflow.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -3471,13 +3472,13 @@
           // Add the CSS class
           button.className = "mute-button";
 
-          // Fix initial icon states: videos start muted, so show the unmute icon (sound with waves)
+          // Reverse initial icon states: videos start muted, so show the crossed-out speaker (mute icon)
           const muteIcon = button.querySelector(".mute-icon");
           const unmuteIcon = button.querySelector(".unmute-icon");
 
           if (muteIcon && unmuteIcon) {
-            muteIcon.style.display = "none"; // Hide crossed-out speaker initially
-            unmuteIcon.style.display = "block"; // Show speaker with waves initially
+            muteIcon.style.display = "block"; // Show crossed-out speaker initially
+            unmuteIcon.style.display = "none"; // Hide speaker with waves initially
           }
         });
       });
@@ -3491,13 +3492,13 @@
         if (video.muted) {
           // Unmute the video
           video.muted = false;
-          muteIcon.style.display = "block";
-          unmuteIcon.style.display = "none";
+          muteIcon.style.display = "none"; // Hide crossed-out speaker when unmuted
+          unmuteIcon.style.display = "block"; // Show speaker with waves when sound is on
         } else {
           // Mute the video
           video.muted = true;
-          muteIcon.style.display = "none";
-          unmuteIcon.style.display = "block";
+          muteIcon.style.display = "block"; // Show crossed-out speaker when muted
+          unmuteIcon.style.display = "none"; // Hide speaker with waves when muted
         }
       }
     </script>
