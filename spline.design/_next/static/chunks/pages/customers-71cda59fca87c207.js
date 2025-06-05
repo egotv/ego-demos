@@ -901,6 +901,28 @@
             }),
             features: [F.animations, F.materials, F.states, F.embed],
           },
+          {
+            video: "_assets/_videos/Aristotle_Product_Demo.mp4",
+            poster: {
+              src: "_assets/_videos/Aristotle_poster.png", // Placeholder poster
+              height: 800,
+              width: 1920,
+              blurDataURL:
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAABlBMVEVhYHD///+iXSWPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAD0lEQVR4nGNggAJGBgYAAABIAADI3XHRAAAAAElFTkSuQmCC", // Generic blur
+              blurWidth: 8,
+              blurHeight: 3,
+            },
+            title: "Aristotle",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
+              children: [
+                "A natural language interface for launching AI agents, each focused on specific, goal-driven tasks. ",
+                "自然言語で指示を出し、目的に応じたAIエージェントを自在に動かせるプラットフォーム。",
+              ],
+            }),
+            website: "", // No website specified
+            features: [F.animations, F.materials, F.states, F.embed],
+          },
         ];
       function Carousel() {
         var e = (0, M._)((0, T.useState)(0), 2),
