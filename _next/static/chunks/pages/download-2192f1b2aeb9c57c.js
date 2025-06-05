@@ -453,10 +453,10 @@
         x = n.n(v),
         k = {
           MacOSM1:
-            "https://cdn.spline.design/_assets/Spline-0.12.5-arm64.mac.zip",
+            "https://cdn.spline.design/assets/Spline-0.12.5-arm64.mac.zip",
           MacOSIntel:
-            "https://cdn.spline.design/_assets/Spline-0.12.5-x64.mac.zip",
-          Windows: "https://cdn.spline.design/_assets/Spline-0.12.5.win.exe",
+            "https://cdn.spline.design/assets/Spline-0.12.5-x64.mac.zip",
+          Windows: "https://cdn.spline.design/assets/Spline-0.12.5.win.exe",
         };
       function MacDownloadButton() {
         return (0, a.jsxs)(_.fC, {

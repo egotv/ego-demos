@@ -939,9 +939,9 @@
         },
         G = [
           {
-            video: "_assets/_videos/Aristotle_Product_Demo.mp4",
+            video: "assets/videos/Aristotle_Product_Demo.mp4",
             poster: {
-              src: "_assets/_videos/Aristotle_poster.png",
+              src: "assets/videos/Aristotle_poster.png",
               height: 800,
               width: 1920,
               blurDataURL:
@@ -967,7 +967,7 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video: "_assets/_videos/Jazz_Cafe_Demo.mp4",
+            video: "assets/videos/Jazz_Cafe_Demo.mp4",
             poster: {
               src: "/_next/static/media/Luma.e8b5f1f1.png",
               height: 800,
@@ -1000,7 +1000,7 @@
             ],
           },
           {
-            video: "_assets/_videos/Chatterblox_Trailer.mp4",
+            video: "assets/videos/Chatterblox_Trailer.mp4",
             poster: {
               src: "/_next/static/media/Scale.7fe203c7.png",
               height: 800,
@@ -1028,7 +1028,7 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video: "_assets/_videos/Accomplice_AI_Teaser.mp4",
+            video: "assets/videos/Accomplice_AI_Teaser.mp4",
             poster: {
               src: "/_next/static/media/Wild.db8fcd53.png",
               height: 800,
@@ -1055,7 +1055,7 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video: "_assets/_videos/Thrall_Teaser.mp4",
+            video: "assets/videos/Thrall_Teaser.mp4",
             poster: {
               src: "/_next/static/media/Alloy.78b750be.png",
               height: 800,
@@ -1083,7 +1083,7 @@
             features: [F.animations, F.materials, F.states, F.videoExport],
           },
           {
-            video: "_assets/_videos/Wukong_Demo.mp4",
+            video: "assets/videos/Wukong_Demo.mp4",
             poster: {
               src: "/_next/static/media/Forbes.00700df3.png",
               height: 800,
@@ -1111,7 +1111,7 @@
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
-            video: "_assets/_videos/QA_Agent_Tech_Demo.mp4",
+            video: "assets/videos/QA_Agent_Tech_Demo.mp4",
             poster: {
               src: "/_next/static/media/Polaroid.0366ddc7.png",
               height: 800,

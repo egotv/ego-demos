@@ -215,7 +215,7 @@
                         playsInline: !0,
                         loop: !0,
                         muted: !0,
-                        src: "https://cdn.spline.design/_assets/_videos/ai/ai_style_transfer.mp4",
+                        src: "https://cdn.spline.design/assets/videos/ai/ai_style_transfer.mp4",
                         poster: _.Z.src,
                         width: "1080",
                         height: "634",
@@ -248,7 +248,7 @@
                             "From hyper-realistic to kawaii, pick the style you want as the base.",
                         }),
                         video:
-                          "https://cdn.spline.design/_assets/_videos/ai/style_transfer-1.mp4",
+                          "https://cdn.spline.design/assets/videos/ai/style_transfer-1.mp4",
                         children: (0, r.jsx)(y.O9, {
                           labels: ["Cartoon", "Clay", "Fluid"],
                         }),
@@ -260,7 +260,7 @@
                             "Quickly modify your lighting, shadows, environment, and more.",
                         }),
                         video:
-                          "https://cdn.spline.design/_assets/_videos/ai/style_transfer-2.mp4",
+                          "https://cdn.spline.design/assets/videos/ai/style_transfer-2.mp4",
                         children: (0, r.jsx)(y.O9, {
                           className: m().fourFakeButton,
                           labels: ["Rain", "Snow", "Night", "Sunset"],
@@ -273,7 +273,7 @@
                             "Use text prompts to fine-tune the details in your image.",
                         }),
                         video:
-                          "https://cdn.spline.design/_assets/_videos/ai/style_transfer-3.mp4",
+                          "https://cdn.spline.design/assets/videos/ai/style_transfer-3.mp4",
                         children: (0, r.jsx)(y.KX, {
                           text: [
                             "White dress, smooth",

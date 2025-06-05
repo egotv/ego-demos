@@ -250,7 +250,7 @@
                   playsInline: !0,
                   loop: !0,
                   muted: !0,
-                  src: "https://cdn.spline.design/_assets/_videos/ai/ai_textures_video_loop_square_compressed.mp4",
+                  src: "https://cdn.spline.design/assets/videos/ai/ai_textures_video_loop_square_compressed.mp4",
                   poster:
                     "/_next/static/media/ai_textures_video_loop_square_compressed.c0a3dd9e.png",
                   width: "1080",

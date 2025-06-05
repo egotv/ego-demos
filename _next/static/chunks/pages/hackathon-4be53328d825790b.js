@@ -981,7 +981,7 @@
                 preload: "metadata",
                 children: [
                   (0, A.jsx)("source", {
-                    src: "/_assets/_videos/hackathon.mp4",
+                    src: "/assets/videos/hackathon.mp4",
                     type: "video/mp4",
                   }),
                   "Your browser does not support the video tag.",

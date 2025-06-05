@@ -1042,7 +1042,7 @@
                       playsInline: !0,
                       loop: !0,
                       muted: !0,
-                      src: "/_assets/_videos/content_modes-compressed.mp4",
+                      src: "/assets/videos/content_modes-compressed.mp4",
                       poster: L.Z.src,
                       width: "1080",
                       height: "634",

@@ -344,7 +344,7 @@
                       children: (0, d.jsx)(g.X, {
                         className: _().heroVideo,
                         children:
-                          ((t = "/_assets/_use-cases/".concat(c)),
+                          ((t = "/assets/_use-cases/".concat(c)),
                           (0, d.jsx)(d.Fragment, {
                             children: (0, d.jsx)("video", {
                               className: _().video,

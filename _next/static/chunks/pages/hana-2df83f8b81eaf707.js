@@ -10006,7 +10006,7 @@
                         playsInline: !0,
                         loop: !0,
                         muted: !0,
-                        src: "https://cdn.spline.design/_assets/_videos/spline_2d_editor.mp4",
+                        src: "https://cdn.spline.design/assets/videos/spline_2d_editor.mp4",
                         width: "1080",
                         height: "634",
                         onClick: function (e) {

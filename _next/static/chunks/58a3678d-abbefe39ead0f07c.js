@@ -36926,7 +36926,7 @@ void main() {
         }),
         ((f5 = mG || (mG = {})).defaultVideo = {
           data: "",
-          thumb: "/_assets/_videos/catThumb.png",
+          thumb: "/assets/videos/catThumb.png",
           type: "video",
           name: "Cat video",
         }),

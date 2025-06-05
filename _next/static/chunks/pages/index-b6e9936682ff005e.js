@@ -1677,15 +1677,15 @@
             children: [
               { url: "https://app.spline.design", name: "Browser" },
               {
-                url: "https://cdn.spline.design/_assets/Spline-0.12.5-arm64.mac.zip",
+                url: "https://cdn.spline.design/assets/Spline-0.12.5-arm64.mac.zip",
                 name: "macOS (m1)",
               },
               {
-                url: "https://cdn.spline.design/_assets/Spline-0.12.5-x64.mac.zip",
+                url: "https://cdn.spline.design/assets/Spline-0.12.5-x64.mac.zip",
                 name: "macOS (intel)",
               },
               {
-                url: "https://cdn.spline.design/_assets/Spline-0.12.5.win.exe",
+                url: "https://cdn.spline.design/assets/Spline-0.12.5.win.exe",
                 name: "Windows",
               },
             ].map(function (e) {
@@ -1972,7 +1972,7 @@
                 playsInline: !0,
                 loop: !0,
                 muted: !0,
-                src: "/_assets/_videos/content_modes-compressed.mp4",
+                src: "/assets/videos/content_modes-compressed.mp4",
                 poster: eP.Z.src,
                 width: "1080",
                 height: "634",
@@ -2020,7 +2020,7 @@
               playsInline: !0,
               loop: !0,
               muted: !0,
-              src: "https://cdn.spline.design/_assets/_videos/spline_beta_release.mp4",
+              src: "https://cdn.spline.design/assets/videos/spline_beta_release.mp4",
               poster: ew.src,
               width: "1080",
               height: "634",
@@ -2051,7 +2051,7 @@
               playsInline: !0,
               loop: !0,
               muted: !0,
-              src: "https://cdn.spline.design/_assets/_videos/features/comments.mp4",
+              src: "https://cdn.spline.design/assets/videos/features/comments.mp4",
               poster: ew.src,
               width: "1080",
               height: "634",
