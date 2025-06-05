@@ -787,13 +787,15 @@
               blurWidth: 8,
               blurHeight: 3,
             },
-            title: "Scale AI Website",
-            subtitle: "By Scale",
-            description: (0, w.jsx)("p", {
-              children:
-                "Scale.ai is an artificial intelligence (AI) platform that enables organizations to build and deploy intelligent applications that can interact with users, analyze data, and make decisions. The Scale team utilized Spline to ideate, design and implement their visual brand style across their entire web presence.",
+            title: "Chatterblox",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
+              children: [
+                "A Roblox experience where you chat with embodied AI friends and deepen relationships over time. ",
+                "ロブロックスの世界で、個性豊かなAIフレンドと会話しながら絆を深めていく体験。",
+              ],
             }),
-            website: "https://scale.com",
+            website: "",
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
@@ -808,13 +810,13 @@
               blurWidth: 8,
               blurHeight: 3,
             },
-            title: "Alloy",
-            subtitle: "By Alloy",
-            description: (0, w.jsx)("p", {
+            title: "Thrall",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
               children:
-                "Alloy is an embedded integrations platform used by engineering and product teams to simplify & accelerate all aspects of integration development from user-customizability to polling infrastructure. The team at Alloy has launched a complete overhaul of their brand and used Spline to create all the 3D elements.",
+                "A Valheim mod that spawns an AI companion who talks and completes tasks on command. 話しかけたり、指示に応じて行動してくれるAIの相棒を呼び出せるValheim用のMOD。",
             }),
-            website: "https://runalloy.com/",
+            website: "",
             features: [F.animations, F.materials, F.states, F.videoExport],
           },
           {
@@ -829,13 +831,13 @@
               blurWidth: 8,
               blurHeight: 3,
             },
-            title: "Forbes Legacy Pass",
-            subtitle: "By Forbes",
-            description: (0, w.jsx)("p", {
+            title: "Wukong",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
               children:
-                "The Legacy Pass by Forbes is a collection of 1,917 soulbound passes curated for the creators, entrepreneurs, and change-makers shaping the Web3 world. The team at Forbes used Spline to bring their shiny new passes to the web and marketing initiatives, a great way to engage their audience and increase interest.",
+                "A mod for Wukong that adds a talking AI companion who assists in combat. 戦闘をサポートしてくれる、おしゃべりなAI仲間を追加するWukongのMOD。",
             }),
-            website: "https://www.forbes.com/legacy-pass",
+            website: "",
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
@@ -850,14 +852,13 @@
               blurWidth: 8,
               blurHeight: 3,
             },
-            title: "Polaroid I-2 Instant Camera",
-            subtitle: "By Polaroid",
-            description: (0, w.jsx)("p", {
+            title: "QA Agent Tech Demo",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
               children:
-                "Designed for creatives, the Polaroid I-2 is the first analog instant camera featuring integrated manual controls and the sharpest Polaroid lens ever created. It exemplifies the potential of interactive product showcases, educating and captivating your audience in an immersive way.",
+                "A QA agent explores Elden Ring by navigating and testing the game's collision boundaries. Elden Ringのマップを探索しながら、当たり判定を検証するQAエージェントの技術デモ。",
             }),
-            website:
-              "https://i2-camera.polaroid.com/i2-instant-camera-technical-specifications",
+            website: "",
             features: [F.animations, F.materials, F.states, F.embed],
           },
           {
@@ -872,12 +873,12 @@
               blurWidth: 8,
               blurHeight: 3,
             },
-            title: "Luma",
-            subtitle: "By Lu.ma",
-            website: "https://lu.ma/",
-            description: (0, w.jsx)("p", {
+            title: "Jazz Cafe Demo",
+            subtitle: "",
+            website: "",
+            description: (0, w.jsxs)("p", {
               children:
-                "Luma helps you host delightful zoom events. Promote your event, manage attendees, and sell tickets. The Luma team designed an interactive animation of their product UI using Spline. The team also created a light mode and dark mode version of their 3D design!",
+                "Three AI characters with distinct personalities interact and converse in a dynamic cafe setting. 性格の異なる3人のAIキャラクターが、ジャズカフェで自由に会話し、ふるまうデモ。",
             }),
             features: [
               F.animations,
@@ -898,11 +899,11 @@
               blurWidth: 8,
               blurHeight: 3,
             },
-            title: "Ikea Family Community",
-            subtitle: "By Wild Agency",
-            description: (0, w.jsx)("p", {
+            title: "Accomplice",
+            subtitle: "",
+            description: (0, w.jsxs)("p", {
               children:
-                "Wild Agency is a digital agency based in Vienna providing brand and creative marketing for clients in various industries and verticals. For example, they collaborated with MRM Spain and IKEA to develop a campaign highlighting the importance of local communities and how helping each other can improve our lives.",
+                "An AI-native social deduction game where detectives interrogate suspects who lie and mislead. AIが嘘やごまかしを使って立ち回る、尋問型のソーシャル推理ゲーム。",
             }),
             features: [F.animations, F.materials, F.states, F.embed],
           },
@@ -968,23 +969,28 @@
             className: V().container,
             children: [
               (0, w.jsxs)("div", {
-                className: B()(V().nav, V().previous),
-                onClick: function () {
-                  t > 0 && c();
-                },
+                className: V().nav,
                 children: [
                   (0, w.jsxs)("div", {
-                    className: V().mask,
+                    className: V().previous,
+                    onClick: function () {
+                      t > 0 && c();
+                    },
                     children: [
-                      (0, w.jsx)("div", { className: V().gradient }),
-                      (0, w.jsx)("div", { className: V().full }),
+                      (0, w.jsxs)("div", {
+                        className: V().mask,
+                        children: [
+                          (0, w.jsx)("div", { className: V().gradient }),
+                          (0, w.jsx)("div", { className: V().full }),
+                        ],
+                      }),
+                      t > 0 &&
+                        (0, w.jsx)("div", {
+                          className: V().navButton,
+                          children: (0, w.jsx)(chevron_large, {}),
+                        }),
                     ],
                   }),
-                  t > 0 &&
-                    (0, w.jsx)("div", {
-                      className: V().navButton,
-                      children: (0, w.jsx)(chevron_large, {}),
-                    }),
                 ],
               }),
               (0, w.jsxs)("div", {
@@ -1042,23 +1048,28 @@
                 ],
               }),
               (0, w.jsxs)("div", {
-                className: B()(V().nav, V().next),
-                onClick: function () {
-                  t < G.length - 1 && d();
-                },
+                className: V().nav,
                 children: [
                   (0, w.jsxs)("div", {
-                    className: V().mask,
+                    className: V().next,
+                    onClick: function () {
+                      t < G.length - 1 && d();
+                    },
                     children: [
-                      (0, w.jsx)("div", { className: V().gradient }),
-                      (0, w.jsx)("div", { className: V().full }),
+                      (0, w.jsxs)("div", {
+                        className: V().mask,
+                        children: [
+                          (0, w.jsx)("div", { className: V().gradient }),
+                          (0, w.jsx)("div", { className: V().full }),
+                        ],
+                      }),
+                      t < G.length - 1 &&
+                        (0, w.jsx)("div", {
+                          className: V().navButton,
+                          children: (0, w.jsx)(chevron_large, {}),
+                        }),
                     ],
                   }),
-                  t < G.length - 1 &&
-                    (0, w.jsx)("div", {
-                      className: V().navButton,
-                      children: (0, w.jsx)(chevron_large, {}),
-                    }),
                 ],
               }),
             ],
